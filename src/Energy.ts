@@ -1,7 +1,7 @@
 type EnergyType = 'mana' | 'stamina';
 
-export interface Energy {
-  
+interface Energy {
+ 
   type_: EnergyType;
   amount: number;
   
