@@ -1,14 +1,8 @@
 import Monster from './Monster';
 
-export default class Dragon extends Monster {
-  private _lifePointes: number;
-  
+export default class Dragon extends Monster {  
   constructor() {
     super();
-    this._lifePointes = 999;
-  }
-
-  get lifePoints(): number {
-    return this._lifePointes;
+    this.dragonLifePoints(999);
   }
 }

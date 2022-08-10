@@ -9,6 +9,8 @@ export default class Monster implements SimpleFighter {
     this._strength = 63;
   }
 
+  protected dragonLifePoints(value: number) { this._lifePoints = value; }
+
   get lifePoints(): number {
     return this._lifePoints;
   }
